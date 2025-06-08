@@ -9,7 +9,7 @@ export default function ResumePage() {
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Ahmet Hasdemir</h2>
         <p className="text-neutral-600 dark:text-neutral-400 mb-4">
-          Software Engineer with expertise in modern web development and cloud technologies.
+          Economics student with expertise in modern web development and data science.
         </p>
         <div className="flex flex-wrap gap-2 mb-4">
           <Link href="mailto:ahmet@hasdemir.me" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
@@ -33,15 +33,17 @@ export default function ResumePage() {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">Hacettepe University, Ankara</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">BS, Economics</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 - Present</span>
           </div>
+          <div className="text-neutral-600 dark:text-neutral-400">BS, Economics</div>
         </div>
         
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">Hacı Ömer Tarman Anatolian High School, Ankara</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">High School</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">2020 - 2024</span>
           </div>
+          <div className="text-neutral-600 dark:text-neutral-400">High School</div>
         </div>
       </section>
 
@@ -107,21 +109,10 @@ export default function ResumePage() {
           </div>
           
           <div>
-            <h3 className="font-medium mb-2">Tools & Platforms</h3>
+            <h3 className="font-medium mb-2">Design Platforms</h3>
             <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Git</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Docker</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">AWS</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">CI/CD</span>
-            </div>
-          </div>
-          
-          <div>
-            <h3 className="font-medium mb-2">Databases</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">PostgreSQL</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">MongoDB</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Redis</span>
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Adobe Photoshop</span>
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Adobe Premiere</span>
             </div>
           </div>
         </div>
@@ -133,12 +124,12 @@ export default function ResumePage() {
         <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
           <li className="mb-2">
             <div className="flex justify-between items-start">
-              <span className="font-medium">AWS Certified Solutions Architect</span>
+              <span className="font-medium">CS50x Introduction to Computer Science</span>
             </div>
           </li>
           <li className="mb-2">
             <div className="flex justify-between items-start">
-              <span className="font-medium">Professional Scrum Master I (PSM I)</span>
+              <span className="font-medium">Google Cloud Data Analytics Certificate</span>
             </div>
           </li>
         </ul>
