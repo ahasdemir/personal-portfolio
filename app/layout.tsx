@@ -15,6 +15,12 @@ export const metadata: Metadata = {
     template: '%s | Ahmet Hasdemir',
   },
   description: 'This is my personal website.',
+  icons: {
+    icon: '/favicon.png', // public klasöründeki dosya yolu
+    // Alternatif olarak:
+    // apple: '/apple-icon.png',
+    // shortcut: '/favicon-16x16.png',
+  },
   openGraph: {
     title: 'Ahmet Hasdemir',
     description: 'This is my personal website.',
