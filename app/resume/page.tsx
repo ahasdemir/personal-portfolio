@@ -21,6 +21,27 @@ export default function ResumePage() {
           <Link href="https://linkedin.com/in/ahasdemir" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
             LinkedIn
           </Link>
+          <Link href="https://hasdemir.me" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
+            hasdemir.me
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-8 w-full">
+        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Education</h2>
+        
+        <div className="mb-6">
+          <div className="flex justify-between items-start mb-1">
+            <h3 className="font-medium">Hacettepe University, Ankara</h3>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">BS, Economics</span>
+          </div>
+        </div>
+        
+        <div className="mb-6">
+          <div className="flex justify-between items-start mb-1">
+            <h3 className="font-medium">Hacı Ömer Tarman Anatolian High School, Ankara</h3>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">High School</span>
+          </div>
         </div>
       </section>
 
@@ -29,40 +50,35 @@ export default function ResumePage() {
         
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
-            <h3 className="font-medium">Senior Software Engineer</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2020 - Present</span>
+            <h3 className="font-medium">ACM Hacettepe, Ankara</h3>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">Advertising/Promotion Team Member</span>
           </div>
-          <div className="text-neutral-600 dark:text-neutral-400 mb-2">Example Company</div>
           <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
-            <li>Led the development of a customer-facing web application using React and TypeScript</li>
-            <li>Implemented CI/CD pipelines to streamline deployment processes</li>
-            <li>Mentored junior developers and conducted code reviews</li>
+            <li>Participated in organizing promotional activities for ACM events</li>
+            <li>Collaborated with team members on advertising campaigns</li>
           </ul>
         </div>
         
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
-            <h3 className="font-medium">Software Engineer</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2017 - 2020</span>
+            <h3 className="font-medium">Denizbank, Remote</h3>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">Denizaşırı Online Internship Alumni</span>
           </div>
-          <div className="text-neutral-600 dark:text-neutral-400 mb-2">Previous Company</div>
           <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
-            <li>Developed and maintained RESTful APIs using Node.js and Express</li>
-            <li>Worked with cross-functional teams to deliver new features</li>
-            <li>Optimized database queries to improve application performance</li>
+            <li>Completed online internship program focused on banking technologies</li>
+            <li>Gained experience in financial services digital infrastructure</li>
           </ul>
         </div>
-      </section>
 
-      <section className="mb-8 w-full">
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Education</h2>
-        
-        <div className="mb-4">
-          <div className="flex justify-between items-start">
-            <h3 className="font-medium">Bachelor of Science in Computer Science</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2013 - 2017</span>
+        <div className="mb-6">
+          <div className="flex justify-between items-start mb-1">
+            <h3 className="font-medium">Bizymle, Remote</h3>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">Editorial Content Creator</span>
           </div>
-          <div className="text-neutral-600 dark:text-neutral-400">University Name</div>
+          <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
+            <li>Created and edited content for digital publications</li>
+            <li>Collaborated with editorial team on content strategy</li>
+          </ul>
         </div>
       </section>
 
@@ -112,21 +128,20 @@ export default function ResumePage() {
       </section>
       
       <section className="w-full">
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Certifications</h2>
+        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Certificates</h2>
         
-        <div className="mb-4">
-          <div className="flex justify-between items-start">
-            <h3 className="font-medium">AWS Certified Solutions Architect</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2022</span>
-          </div>
-        </div>
-        
-        <div className="mb-4">
-          <div className="flex justify-between items-start">
-            <h3 className="font-medium">Professional Scrum Master I (PSM I)</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2021</span>
-          </div>
-        </div>
+        <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
+          <li className="mb-2">
+            <div className="flex justify-between items-start">
+              <span className="font-medium">AWS Certified Solutions Architect</span>
+            </div>
+          </li>
+          <li className="mb-2">
+            <div className="flex justify-between items-start">
+              <span className="font-medium">Professional Scrum Master I (PSM I)</span>
+            </div>
+          </li>
+        </ul>
       </section>
       
       <div className="mt-8 w-full">
