@@ -53,7 +53,10 @@ export default function ResumePage() {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">ACM Hacettepe, Ankara</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">Advertising/Promotion Team Member</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 Nov - Present</span>
+          </div>
+          <div className="flex justify-between items-start mb-2">
+            <span className="text-neutral-600 dark:text-neutral-400">Advertising/Promotion Team Member</span>
           </div>
           <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
             <li>Participated in organizing promotional activities for ACM events</li>
@@ -64,7 +67,10 @@ export default function ResumePage() {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">Denizbank, Remote</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">Denizaşırı Online Internship Alumni</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 Dec - 2025 Jan</span>
+          </div>
+          <div className="flex justify-between items-start mb-2">
+            <span className="text-neutral-600 dark:text-neutral-400">Denizaşırı Online Internship Alumni</span>
           </div>
           <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
             <li>Completed online internship program focused on banking technologies</li>
@@ -75,7 +81,10 @@ export default function ResumePage() {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">Bizymle, Remote</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">Editorial Content Creator</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">2022 Jan - 2023 Feb</span>
+          </div>
+          <div className="flex justify-between items-start mb-2">
+            <span className="text-neutral-600 dark:text-neutral-400">Editorial Content Creator</span>
           </div>
           <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
             <li>Created and edited content for digital publications</li>
