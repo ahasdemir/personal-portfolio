@@ -27,7 +27,7 @@ export default function Footer() {
             href="https://github.com/ahasdemir"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">gitHub</p>
+            <p className="ml-2 h-7">github</p>
           </a>
         </li>
         <li>
@@ -71,7 +71,7 @@ export default function Footer() {
             href="/rss"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">RSS</p>
+            <p className="ml-2 h-7">rss</p>
           </a>
         </li>
         <li>
