@@ -53,7 +53,7 @@ export default function ResumePage() {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">ACM Hacettepe, Ankara</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 Nov - Present</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 Oct - Present</span>
           </div>
           <div className="flex justify-between items-start mb-2">
             <span className="text-neutral-600 dark:text-neutral-400">Advertising/Promotion Team Member</span>
@@ -81,7 +81,7 @@ export default function ResumePage() {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">Bizymle, Remote</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2022 Jan - 2023 Feb</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">2021 Feb - 2021 Jun</span>
           </div>
           <div className="flex justify-between items-start mb-2">
             <span className="text-neutral-600 dark:text-neutral-400">Editorial Content Creator</span>
