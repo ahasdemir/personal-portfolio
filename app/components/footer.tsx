@@ -60,7 +60,7 @@ export default function Footer() {
             href="https://instagram.com/ahmethsdemir"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">Instagram</p>
+            <p className="ml-2 h-7">instagram</p>
           </a>
         </li>
         <li>
