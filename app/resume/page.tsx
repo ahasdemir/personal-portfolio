@@ -137,7 +137,7 @@ export default function ResumePage() {
       
       <div className="mt-8 w-full">
         <Link 
-          href="resume/resume.pdf" 
+          href="/resume.pdf" 
           target="_blank"
           className="inline-flex items-center justify-center bg-neutral-800 dark:bg-neutral-200 text-neutral-200 dark:text-neutral-800 px-4 py-2 rounded-md hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-colors"
         >
