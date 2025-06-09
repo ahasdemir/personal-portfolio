@@ -36,6 +36,32 @@ const projects = [
       'Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'MDX', 'Vercel'
     ],
   },
+{
+    id: 'gemini-with-knowledge',
+    title: 'Gemini with Knowledge',
+    description: 'This project integrates a knowledge management system with the Gemini API, allowing the model to reference a knowledge base when generating responses.',
+    image: '/projects/gemini-with-knowledge.png',
+    tags: ['AI', 'Gemini API', 'Knowledge Management', 'Python'],
+    demoUrl: 'https://github.com/ahasdemir/gemini-with-knowledge',
+    githubUrl: 'https://github.com/ahasdemir/gemini-with-knowledge',
+    fullDescription: `
+      This project integrates a knowledge management system with the Gemini API, allowing the model to reference a knowledge base when generating responses. I created this app as a prototype for a helping chatbot that can assist users in various contexts.
+      
+      The application allows users to upload documents to a knowledge base, which the Gemini AI model can then reference when answering questions. This creates more accurate and contextually relevant responses based on the specific information in the knowledge base.
+      
+      By combining Google's powerful Gemini AI with custom knowledge bases, this project demonstrates how to create specialized AI assistants that can leverage both general AI capabilities and specific domain knowledge.
+    `,
+    features: [
+      'Document upload and knowledge base management',
+      'Integration with Google Gemini API',
+      'Context-aware responses based on uploaded knowledge',
+      'Conversation history and context persistence',
+      'User-friendly chat interface'
+    ],
+    technologies: [
+      'Gemini API', 'Python', 'Express', 'Vector Database'
+    ],
+  },
   {
     id: 'data-visualization-dashboard',
     title: 'Data Visualization Dashboard',

@@ -14,6 +14,15 @@ const projects = [
     githubUrl: 'https://github.com/ahasdemir/portfolio',
   },
   {
+    id: 'gemini-with-knowledge',
+    title: 'Gemini with Knowledge',
+    description: 'This project integrates a knowledge management system with the Gemini API, allowing the model to reference a knowledge base when generating responses.',
+    image: '/projects/gemini-with-knowledge.png',
+    tags: ['AI', 'Gemini API', 'Knowledge Management', 'Python'],
+    demoUrl: 'https://github.com/ahasdemir/gemini-with-knowledge',
+    githubUrl: 'https://github.com/ahasdemir/gemini-with-knowledge',
+  },
+  {
     id: 'data-visualization-dashboard',
     title: 'Data Visualization Dashboard',
     description: 'Interactive dashboard for visualizing economic data using D3.js and React',
