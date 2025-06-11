@@ -49,8 +49,8 @@ export default function ProjectsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
         {projects.map((project) => (
           <Link href={`/projects/${project.id}`} key={project.id} className="group">
-            <div className="border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden transition-all hover:shadow-md">
-              <div className="relative h-48 w-full bg-neutral-100 dark:bg-neutral-800">
+            <div className="border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden transition-all hover:shadow-md h-[360px] flex flex-col">
+              <div className="relative h-48 w-full bg-neutral-100 dark:bg-neutral-800 flex-shrink-0">
                 <Image 
                   src={project.image} 
                   alt={project.title}
@@ -59,14 +59,14 @@ export default function ProjectsPage() {
                 />
               </div>
               
-              <div className="p-4">
-                <h3 className="font-semibold text-lg mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+              <div className="p-4 flex flex-col flex-grow">
+                <h3 className="font-semibold text-lg mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-1">
                   {project.title}
                 </h3>
-                <p className="text-neutral-600 dark:text-neutral-400 text-sm mb-3 line-clamp-2">
+                <p className="text-neutral-600 dark:text-neutral-400 text-sm mb-3 line-clamp-2 flex-grow">
                   {project.description}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-3">
+                <div className="flex flex-wrap gap-2 mt-auto">
                   {project.tags.map((tag) => (
                     <span 
                       key={tag} 
