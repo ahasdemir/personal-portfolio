@@ -62,38 +62,12 @@ const projects = [
       'Gemini API', 'Python', 'Express', 'Vector Database'
     ],
   },
-  {
-    id: 'data-visualization-dashboard',
-    title: 'Data Visualization Dashboard',
-    description: 'Interactive dashboard for visualizing economic data using D3.js and React',
-    image: '/projects/dashboard.jpg',
-    tags: ['React', 'D3.js', 'API'],
-    demoUrl: 'https://dashboard-demo.hasdemir.me',
-    githubUrl: 'https://github.com/ahasdemir/data-dashboard',
-    fullDescription: `
-      An interactive data visualization dashboard that displays economic indicators 
-      and trends. The application fetches data from public APIs and renders various 
-      charts and graphs using D3.js integrated with React.
-      
-      The dashboard allows users to explore economic data through different 
-      visualization types and apply filters to analyze specific time periods or categories.
-    `,
-    features: [
-      'Interactive data charts and graphs',
-      'Filter data by date ranges and categories',
-      'Compare multiple indicators',
-      'Export charts as images',
-      'Mobile-friendly visualizations',
-    ],
-    technologies: [
-      'React', 'D3.js', 'REST APIs', 'Chart.js', 'CSS Grid', 'GitHub Actions'
-    ],
-  },
+
   {
     id: 'machine-learning-model',
     title: 'Economic Forecast Model',
     description: 'Machine learning model to predict economic indicators based on historical data',
-    image: '/projects/ml-model.jpg',
+    image: '/projects/ml-model.png',
     tags: ['Python', 'TensorFlow', 'Data Science'],
     demoUrl: 'https://ml-demo.hasdemir.me',
     githubUrl: 'https://github.com/ahasdemir/economic-forecast',
