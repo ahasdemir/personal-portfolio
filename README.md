@@ -1,61 +1,42 @@
-# Ahmet Hasdemir's Portfolio Website
+# Portfolio Blog Starter
 
-This is my personal portfolio website showcasing my projects and experience. The site is built using the Vercel Portfolio Blog Starter as a foundation, which I've customized and extended to fit my needs.
+This is a porfolio site template complete with a blog. Includes:
 
-## Features
-
-- Projects section with interactive card links
-- Resume page with download option
-- Blog with MDX and Markdown support
-- Dynamic project pages
-- SEO optimization (sitemap, robots, JSON-LD schema)
+- MDX and Markdown support
+- Optimized for SEO (sitemap, robots, JSON-LD schema)
 - RSS Feed
 - Dynamic OG images
 - Syntax highlighting
-- Tailwind CSS styling
-- Responsive design for all devices
-- Dark/Light mode toggle
+- Tailwind v4
+- Vercel Speed Insights / Web Analytics
+- Geist font
 
-## Projects Section
+## Demo
 
-The portfolio includes a projects section where I showcase my work with interactive cards. Each project has its own dedicated page with detailed information, including:
+https://portfolio-blog-starter.vercel.app
 
-- Project overview
-- Key features
-- Technologies used
-- Links to live demos and GitHub repositories
+## How to Use
 
-## Technology Stack
+You can choose from one of the following two methods to use this repository:
 
-This website is built with:
-- Next.js
-- React
-- Tailwind CSS
-- TypeScript
-- MDX for content
+### One-Click Deploy
 
-## Development
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-To run this project locally:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+
+### Clone and Deploy
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-# Install dependencies
-pnpm install
+pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
+```
 
-# Run development server
+Then, run Next.js in development mode:
+
+```bash
 pnpm dev
 ```
 
-The site will be available at http://localhost:3000
-
-## Deployment
-
-This site is deployed on Vercel. Any changes pushed to the main branch are automatically deployed.
-
-## Original Template
-
-This portfolio is based on the [Vercel Portfolio Blog Starter](https://github.com/vercel/examples/tree/main/solutions/blog). I've extended it with additional features like the projects section and resume page.
-
-## Contact
-
-Feel free to reach out to me at ahmet@hasdemir.me or connect with me on [LinkedIn](https://linkedin.com/in/ahasdemir) and [GitHub](https://github.com/ahasdemir).
+Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
