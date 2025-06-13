@@ -2,9 +2,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+    "build": "node optimize-images.js && next build",
+    "start": "next start",
+    "optimize-images": "node optimize-images.js"
+  }, 
   "dependencies": {
     "@tailwindcss/postcss": "4.0.0-alpha.13",
     "@types/node": "20.11.17",
