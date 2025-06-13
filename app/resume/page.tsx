@@ -166,11 +166,11 @@ export default function ResumePage() {
         </ul>
       </section>
       
-      <div className="mt-8 w-full">
+      <div className="mt-8 flex w-full">
         <Link 
           href="https://r09d9qfi80.ufs.sh/f/dycBZZqMs41H0hxiIUeUuoc8kxWDCsSj5XgFBL2pb9EA4wGZ" 
           target="_blank"
-          className="inline-flex items-center justify-center bg-neutral-800 dark:bg-neutral-200 text-neutral-200 dark:text-neutral-800 px-4 py-2 rounded-md hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-colors"
+          className="px-4 py-2 bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 rounded-md hover:opacity-90 transition-opacity"
         >
           Download PDF Resume
         </Link>

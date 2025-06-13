@@ -11,7 +11,7 @@ export default function Page() {
             Ahmet Hasdemir
           </h1>
           <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
-            As an economics student with strong analytical skills, I have experience in modern web development and data science. I am a team player, able to produce innovative solutions, and always open to learning.
+            Economics student by day, code wizard by night. I juggle spreadsheets and React components with equal enthusiasm, turning coffee into code and data into insights. Whether I'm debugging or debating economic theories, I'm always up for a challenge and a good laugh.
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
             <Link 
