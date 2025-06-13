@@ -26,7 +26,7 @@ function walk(dir) {
       .webp({ quality: 80 })
       .toFile(out);
     // Orijinal dosyayı silmek isterseniz aşağıdaki satırı açın:
-    // fs.unlinkSync(img);
+    fs.unlinkSync(img);
     console.log(`Optimized: ${img} -> ${out}`);
   }
 })(); 
