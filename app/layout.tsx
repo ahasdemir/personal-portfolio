@@ -14,20 +14,25 @@ export const metadata: Metadata = {
     default: 'Ahmet Hasdemir',
     template: '%s | Ahmet Hasdemir',
   },
-  description: 'This is my personal website.',
+  description: 'Ahmet Hasdemir\'s personal website.',
   icons: {
-    icon: '/favicon.png', // public klasöründeki dosya yolu
-    // Alternatif olarak:
-    // apple: '/apple-icon.png',
-    // shortcut: '/favicon-16x16.png',
+    icon: '/favicon.webp',
   },
   openGraph: {
     title: 'Ahmet Hasdemir',
-    description: 'This is my personal website.',
+    description: 'Ahmet Hasdemir\'s personal website.',
     url: baseUrl,
     siteName: 'Ahmet Hasdemir',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/foto.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Ahmet Hasdemir',
+      },
+    ],
   },
   robots: {
     index: true,

@@ -113,7 +113,6 @@ export default function ResumePage() {
               <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">React</span>
               <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Next.js</span>
               <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Node.js</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Express</span>
             </div>
           </div>
           
@@ -122,6 +121,29 @@ export default function ResumePage() {
             <div className="flex flex-wrap gap-2">
               <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Adobe Photoshop</span>
               <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Adobe Premiere</span>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-medium mb-2">Data Science & AI</h3>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Python</span>
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">TensorFlow</span>
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Machine Learning</span>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-medium mb-2">Tools & Technologies</h3>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Git</span>
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Docker</span>
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">AWS</span>
+            </div>
+          </div>
+          <div>
+            <h3 className="font-medium mb-2">Languages</h3>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">English</span>
+              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Turkish</span>
             </div>
           </div>
         </div>
@@ -146,7 +168,7 @@ export default function ResumePage() {
       
       <div className="mt-8 w-full">
         <Link 
-          href="/resume.pdf" 
+          href="https://r09d9qfi80.ufs.sh/f/dycBZZqMs41H0hxiIUeUuoc8kxWDCsSj5XgFBL2pb9EA4wGZ" 
           target="_blank"
           className="inline-flex items-center justify-center bg-neutral-800 dark:bg-neutral-200 text-neutral-200 dark:text-neutral-800 px-4 py-2 rounded-md hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-colors"
         >

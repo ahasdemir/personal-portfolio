@@ -30,7 +30,7 @@ export default function Page() {
         </div>
         <div className="w-36 h-36 relative rounded-full overflow-hidden border-4 border-neutral-200 dark:border-neutral-800">
           <Image 
-            src="/foto.jpg" 
+            src="/foto.webp" 
             alt="Ahmet Hasdemir" 
             fill 
             className="object-cover"
