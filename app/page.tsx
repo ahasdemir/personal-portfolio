@@ -26,7 +26,13 @@ export default function Page() {
             >
               Blog Posts
             </Link>
-          </div>
+            <Link 
+              href="/projects" 
+              className="px-4 py-2 border border-neutral-300 dark:border-neutral-700 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+            >
+              Projects
+            </Link>
+            </div>
         </div>
         <div className="w-36 h-36 relative rounded-full overflow-hidden border-4 border-neutral-200 dark:border-neutral-800">
           <Image 
