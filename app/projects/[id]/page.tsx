@@ -35,7 +35,7 @@ const projects = [
       'Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'MDX', 'Vercel'
     ],
   },
-{
+  {
     id: 'gemini-with-knowledge',
     title: 'Gemini with Knowledge',
     description: 'This project integrates a knowledge management system with the Gemini API, allowing the model to reference a knowledge base when generating responses.',
@@ -61,7 +61,6 @@ const projects = [
       'Gemini API', 'Python', 'Express', 'Vector Database'
     ],
   },
-
   {
     id: 'machine-learning-model',
     title: 'Economic Forecast Model',
@@ -87,6 +86,37 @@ const projects = [
     ],
     technologies: [
       'Python', 'TensorFlow', 'Pandas', 'NumPy', 'Matplotlib', 'Flask', 'React'
+    ],
+  },
+  {
+    id: 'minecraft-rehber',
+    title: 'Administration Guide Panel',
+    description: 'A Next.js application containing guide and management tools for the SkyBlockTC server',
+    image: '/projects/guide-panel.webp',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    demoUrl: 'https://skyblocktc-rehber.vercel.app',
+    githubUrl: 'https://github.com/ahasdemir/skyblocktc-rehber',
+    fullDescription: `
+      This project is a comprehensive guide and management panel for the SkyBlockTC server. 
+      Built using Next.js and TypeScript, it provides an intuitive interface for server management 
+      and player guidance.
+
+      The application features:
+      - Server management tools
+      - Player guides and documentation
+      - Interactive UI components
+      - Responsive design for all devices
+      - Real-time updates and notifications
+    `,
+    features: [
+      'Server management dashboard',
+      'Player guides and documentation',
+      'Interactive UI components',
+      'Responsive design',
+      'Real-time updates'
+    ],
+    technologies: [
+      'Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'Vercel'
     ],
   },
 ];

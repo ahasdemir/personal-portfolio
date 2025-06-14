@@ -28,6 +28,15 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/ahasdemir/gemini-with-knowledge',
   },
   {
+    id: 'minecraft-rehber',
+    title: 'Administration Guide Panel',
+    description: 'A Next.js application containing guide and management tools for the SkyBlockTC server',
+    image: '/projects/guide-panel.webp',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    demoUrl: 'https://skyblocktc-rehber.vercel.app',
+    githubUrl: 'https://github.com/ahasdemir/skyblocktc-rehber',
+  },
+  {
     id: 'machine-learning-model',
     title: 'Economic Forecast Model',
     description: 'Machine learning model to predict economic indicators based on historical data',
