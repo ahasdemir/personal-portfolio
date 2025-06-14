@@ -171,7 +171,7 @@ export default function ResumePage() {
       
       <div className="mt-8 flex w-full">
         <Link 
-          href="https://r09d9qfi80.ufs.sh/f/dycBZZqMs41H0hxiIUeUuoc8kxWDCsSj5XgFBL2pb9EA4wGZ" 
+          href="https://r09d9qfi80.ufs.sh/f/dycBZZqMs41HXl1SCY3r5zT87NXlAF9Ga21vWSUBZojKLsHe" 
           target="_blank"
           className="px-4 py-2 bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 rounded-md hover:opacity-90 transition-opacity"
         >
