@@ -39,18 +39,7 @@ export default function Page() {
         </div>
       </div>
       
-      <div className="my-12 py-8 border-t border-b border-neutral-200 dark:border-neutral-800">
-        <h2 className="text-2xl font-semibold mb-6 text-neutral-900 dark:text-neutral-100">
-          Skills
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {['JavaScript', 'TypeScript', 'React', 'Next.js', 'Python', 'Data Science', 'Economics', 'UI/UX'].map((skill) => (
-            <div key={skill} className="px-4 py-3 bg-neutral-100 dark:bg-neutral-800 rounded-lg text-center hover:translate-y-[-2px] transition-transform">
-              {skill}
-            </div>
-          ))}
-        </div>
-      </div>
+
 
       <div className="my-12">
         <h2 className="text-2xl font-semibold mb-6 text-neutral-900 dark:text-neutral-100">
