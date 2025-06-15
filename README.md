@@ -39,7 +39,7 @@ This website is built with:
 To run this project locally:
 
 ```bash
-# Clon the repo
+# Clone the repo
 git clone https://github.com/ahasdemir/personal-portfolio.git
 
 # Open repo folder
