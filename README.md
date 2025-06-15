@@ -39,11 +39,17 @@ This website is built with:
 To run this project locally:
 
 ```bash
+#Cloning repo
+git clone https://github.com/ahasdemir/personal-portfolio.git
+
+#Opening repo folder
+cd personal-portfolio
+
 # Install dependencies
-pnpm install
+pnpm install #or you can use 'npm install'
 
 # Run development server
-pnpm dev
+pnpm run dev #or you can use 'npm run dev'
 ```
 
 The site will be available at http://localhost:3000
