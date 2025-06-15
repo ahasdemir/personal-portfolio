@@ -39,10 +39,10 @@ This website is built with:
 To run this project locally:
 
 ```bash
-#Cloning repo
+# Clon the repo
 git clone https://github.com/ahasdemir/personal-portfolio.git
 
-#Opening repo folder
+# Open repo folder
 cd personal-portfolio
 
 # Install dependencies
