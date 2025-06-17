@@ -35,7 +35,7 @@ export default function ResumePage() {
             <h3 className="font-medium">Hacettepe University, Ankara</h3>
             <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 - Present</span>
           </div>
-          <div className="text-neutral-600 dark:text-neutral-400">BS, Economics</div>
+          <div className="text-neutral-600 dark:text-neutral-400">BSc, Economics</div>
         </div>
         
         <div className="mb-6">
