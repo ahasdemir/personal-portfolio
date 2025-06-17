@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
+
+html {
+  font-size: 110%; 
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
