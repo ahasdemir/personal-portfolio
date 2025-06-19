@@ -93,8 +93,8 @@ export default function Blog({ params }) {
         <CustomMDX source={post.content} />
       </article>
         <div className="mt-16 border-t border-neutral-200 dark:border-neutral-800 pt-8">
-        <h3 className="font-semibold text-lg mb-4">Subscribe to my newsletter</h3>
-        <div className="flex justify-center md:justify-start overflow-hidden max-w-full">
+        <h3 className="flex justify-center font-semibold text-lg mb-4">Subscribe to my newsletter</h3>
+        <div className="flex justify-center md:justify-center overflow-hidden max-w-full">
           <iframe 
             src="https://ahmethasdemir.substack.com/embed" 
             width="100%" 
