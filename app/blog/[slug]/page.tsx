@@ -99,7 +99,7 @@ export default function Blog({ params }) {
             src="https://ahmethasdemir.substack.com/embed" 
             width="100%" 
             height="320" 
-            className="max-w-[480px] dark:invert dark:hue-rotate-180 dark:contrast-75"            style={{ 
+            className="max-w-[480px] dark:invert dark:grayscale"            style={{ 
               border: '1px solid rgb(229, 231, 235)',
               background: 'transparent',
             }} 
