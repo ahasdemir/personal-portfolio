@@ -88,11 +88,27 @@ export default function Blog({ params }) {
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {formatDate(post.metadata.publishedAt)}
-        </p>
-      </div>
+        </p>      </div>
       <article className="prose">
         <CustomMDX source={post.content} />
       </article>
+        <div className="mt-16 border-t border-neutral-200 dark:border-neutral-800 pt-8">
+        <h3 className="font-semibold text-lg mb-4">Subscribe to my newsletter</h3>
+        <div className="flex justify-center md:justify-start overflow-hidden max-w-full">
+          <iframe 
+            src="https://ahmethasdemir.substack.com/embed" 
+            width="100%" 
+            height="320" 
+            className="max-w-[480px] dark:invert dark:hue-rotate-180 dark:contrast-75"            style={{ 
+              border: '1px solid rgb(229, 231, 235)',
+              background: 'transparent',
+            }} 
+            frameBorder="0" 
+            scrolling="no"
+            title="Substack newsletter subscription"
+          ></iframe>
+        </div>
+      </div>
     </section>
   )
 }

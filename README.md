@@ -16,6 +16,52 @@ This is my personal portfolio website showcasing my projects and experience. The
 - Responsive design for all devices
 - Dark/Light mode toggle
 
+## Project Structure
+
+```
+portfolio-starter-kit/
+├── app/                      # Next.js App Router structure
+│   ├── blog/                 # Blog section
+│   │   ├── posts/            # MDX blog posts
+│   │   ├── [slug]/           # Dynamic blog post pages
+│   │   ├── page.tsx          # Blog listing page
+│   │   └── utils.ts          # Blog utility functions
+│   ├── components/           # Shared React components
+│   │   ├── footer.tsx        # Footer component
+│   │   ├── mdx.tsx           # MDX renderer
+│   │   ├── nav.tsx           # Navigation component
+│   │   └── posts.tsx         # Blog posts component
+│   ├── lib/                  # Library code and utilities
+│   │   └── utils.ts          # General utility functions
+│   ├── og/                   # Open Graph image generation
+│   │   └── route.tsx         # API route for OG images
+│   ├── projects/             # Projects section
+│   │   ├── [id]/             # Dynamic project page
+│   │   ├── data.ts           # Project data
+│   │   ├── page.tsx          # Projects listing page
+│   │   └── ProjectsList.tsx  # Projects component
+│   ├── resume/               # Resume section
+│   │   └── page.tsx          # Resume page
+│   ├── rss/                  # RSS feed generation
+│   │   └── route.ts          # RSS API route
+│   ├── global.css            # Global styles
+│   ├── layout.tsx            # Root layout
+│   ├── not-found.tsx         # 404 page
+│   ├── page.tsx              # Home page
+│   ├── robots.ts             # Robots.txt config
+│   └── sitemap.ts            # Sitemap generation
+├── public/                   # Static assets
+│   ├── projects/             # Project images
+│   ├── favicon.webp          # Favicon
+│   ├── foto.webp             # Profile photo
+│   └── resume.pdf            # Downloadable PDF resume
+├── next.config.js            # Next.js configuration
+├── package.json              # Project dependencies
+├── postcss.config.js         # PostCSS configuration
+├── tailwind.config.js        # Tailwind CSS configuration
+└── tsconfig.json             # TypeScript configuration
+```
+
 ## Projects Section
 
 The portfolio includes a projects section where I showcase my work with interactive cards. Each project has its own dedicated page with detailed information, including:
