@@ -11,7 +11,7 @@ export default function Page() {
             Ahmet Hasdemir
           </h1>
           <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
-            Economics student by day, code wizard by night. I juggle spreadsheets and React components with equal enthusiasm, turning coffee into code and data into insights. I'm absolute music nerd, btw.
+            Economics student passionate about web development and data science. Crafting modern applications with React, Next.js, and Python while exploring economic theory and machine learning.
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
             <Link 
