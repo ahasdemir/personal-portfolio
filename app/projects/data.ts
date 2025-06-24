@@ -45,4 +45,13 @@ export const projects: Project[] = [
     demoUrl: 'https://ml-demo.hasdemir.me',
     githubUrl: 'https://github.com/ahasdemir/economic-forecast',
   },
+  {
+    id: 'job-scraper',
+    title: 'Job Scraper',
+    description: 'A Python tool that automatically collects job listings from Youthall and Toptalent',
+    image: '/projects/job-scraper.webp',
+    tags: ['Python', 'pandas', 'beautifulsoup4'],
+    demoUrl: 'https://github.com/ahasdemir/job-scraper',
+    githubUrl: 'https://github.com/ahasdemir/job-scraper',
+  },
 ]; 

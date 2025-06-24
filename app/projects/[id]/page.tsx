@@ -119,6 +119,27 @@ const projects = [
       'Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'Vercel'
     ],
   },
+  {
+    id: 'job-scraper',
+    title: 'Job Scraper',
+    description: 'A Python tool that automatically collects job listings from Youthall and Toptalent.',
+    image: '/projects/job-scraper.webp',
+    tags: ['Python', 'pandas', 'beautifulsoup4'],
+    demoUrl: 'https://github.com/ahasdemir/job-scraper',
+    githubUrl: 'https://github.com/ahasdemir/job-scraper',
+    fullDescription: `
+      A Python tool that automatically collects job listings from Youthall and Toptalent. Extracts job titles, companies, locations, and links, then saves to CSV. Simple to use, with a modular design that makes it easy to add support for more job sites.
+      This project demonstrates web scraping techniques using Python libraries like BeautifulSoup and pandas. It can be extended to scrape additional job sites or extract more detailed information as needed.
+    `,
+    features: [
+      'Scrapes job title, company, location, and job link.',
+      'Saves results as CSV.',
+      'Modular design for adding new scrapers.'
+    ],
+    technologies: [
+      'Python', 'pandas', 'beatifulsoup4'
+    ],
+  },
 ];
 
 // Generate metadata function for dynamic titles
