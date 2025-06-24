@@ -168,8 +168,14 @@ export default function ProjectPage({ params }) {
   return (
     <div className="flex flex-col items-start max-w-3xl mx-auto pb-16">
       <div className="mb-8">
-        <Link href="/projects" className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200 transition-colors">
-          ← Back to Projects
+        <Link 
+          href="/projects" 
+          className="group flex items-center gap-2 py-2 px-3 rounded-md text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 bg-neutral-100 dark:bg-neutral-800 transition-all"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="group-hover:-translate-x-1 transition-transform">
+            <path d="m15 18-6-6 6-6" />
+          </svg>
+          Back to Projects
         </Link>
       </div>
       
