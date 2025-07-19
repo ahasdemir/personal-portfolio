@@ -9,7 +9,7 @@ const projects = [
     title: 'Personal Portfolio',
     description: 'My personal portfolio website built with Next.js and Tailwind CSS',
     image: '/projects/portfolio.webp',
-    tags: ['Next.js', 'React', 'Tailwind CSS'],
+    tags: ['Next.js', 'Tailwind CSS'],
     demoUrl: 'https://hasdemir.me',
     githubUrl: 'https://github.com/ahasdemir/personal-portfolio',
     fullDescription: `
