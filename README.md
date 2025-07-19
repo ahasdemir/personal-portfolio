@@ -4,17 +4,18 @@ This is my personal portfolio website showcasing my projects and experience. The
 
 ## Features
 
-- Projects section with interactive card links
+- Projects section with interactive cards and detailed dynamic pages
 - Resume page with download option
 - Blog with MDX and Markdown support
-- Dynamic project pages
 - SEO optimization (sitemap, robots, JSON-LD schema)
 - RSS Feed
 - Dynamic OG images
-- Syntax highlighting
-- Tailwind CSS styling
-- Responsive design for all devices
-- Dark/Light mode toggle
+- Syntax highlighting with [Sugar High](https://github.com/huozhi/sugar-high)
+- Tailwind CSS styling with responsive design and dark/light mode toggle
+- Error boundary implementation for better error handling
+- Loading state components for improved UX
+- TypeScript integration for type safety
+- Consolidated project data management system
 
 ## Project Structure
 
