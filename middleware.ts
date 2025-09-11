@@ -4,6 +4,7 @@ import type { NextRequest } from 'next/server';
 const shortlinks = {
   spotify: 'https://open.spotify.com/user/70itmne002vph0cs64cg4ljhk?si=4937f204e62a4f35',
   github: 'https://github.com/ahasdemir',
+  letterboxd: 'https://letterboxd.com/hayiristemiyorm/',
 };
 
 export function middleware(request: NextRequest) {
