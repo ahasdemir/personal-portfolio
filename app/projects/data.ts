@@ -102,33 +102,6 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'machine-learning-model',
-    title: 'Economic Forecast Model',
-    description: 'Machine learning model to predict economic indicators based on historical data',
-    image: '/projects/ml-model.webp',
-    tags: ['Python', 'TensorFlow', 'Data Science'],
-    demoUrl: 'https://ml-demo.hasdemir.me',
-    githubUrl: 'https://github.com/ahasdemir/economic-forecast',
-    fullDescription: `
-      A machine learning model that predicts economic indicators such as 
-      GDP growth, inflation rates, and unemployment based on historical data.
-      
-      The model uses time series analysis and neural networks to identify patterns 
-      and make predictions. The web interface allows users to input various parameters 
-      and see visualizations of the predicted outcomes.
-    `,
-    features: [
-      'Time series forecasting of economic indicators',
-      'Customizable prediction parameters',
-      'Interactive visualization of results',
-      'Model accuracy metrics',
-      'API endpoints for integration with other applications',
-    ],
-    technologies: [
-      'Python', 'TensorFlow', 'Pandas', 'NumPy', 'Matplotlib', 'Flask', 'React'
-    ],
-  },
-  {
     id: 'job-scraper',
     title: 'Job Scraper',
     description: 'A Python tool that automatically collects job listings from Youthall and Toptalent',
