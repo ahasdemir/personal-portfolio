@@ -11,7 +11,7 @@ export default function Page() {
             Ahmet Hasdemir
           </h1>
           <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
-            Economics student passionate about web development and data science. Crafting modern applications with React, Next.js, and Python while exploring economic theory and machine learning.
+            Economics student with a strong foundation in econometrics and statistical analysis. Skilled in Python (Pandas, NumPy) and Financial Modelling. Passionate about bridging the gap between economic theory and data science to solve complex risk management problems. Currently building automated dashboards for market analysis.
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
             <Link 
