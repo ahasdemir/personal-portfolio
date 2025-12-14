@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function ResumePage() {
@@ -15,15 +14,36 @@ export default function ResumePage() {
           <Link href="mailto:ahmet@hasdemir.me" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
             ahmet@hasdemir.me
           </Link>
+          <Link href="https://hasdemir.me" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
+            hasdemir.me
+          </Link>
           <Link href="https://github.com/ahasdemir" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
             GitHub
           </Link>
           <Link href="https://linkedin.com/in/ahasdemir" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
             LinkedIn
           </Link>
-          <Link href="https://www.kaggle.com/ahmethasdemir" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
-            Kaggle
-          </Link>
+          <span className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm">
+            +90 531 861 0820
+          </span>
+        </div>
+      </section>
+
+      <section className="mb-8 w-full">
+        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Experience</h2>
+        
+        <div className="mb-6">
+          <div className="flex justify-between items-start mb-1">
+            <h3 className="font-medium">DenizBank</h3>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">Dec 2024 – Jan 2025</span>
+          </div>
+          <div className="flex justify-between items-start mb-2">
+            <span className="text-neutral-600 dark:text-neutral-400">Intern (Remote)</span>
+          </div>
+          <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300 space-y-2">
+            <li><strong>Global Insight:</strong> Gained a comprehensive understanding of international banking dynamics and global financial trends through exposure to cross-border operations within the DenizBank and Emirates NBD ecosystem.</li>
+            <li><strong>Strategic Collaboration:</strong> Actively contributed to innovative projects by bridging the gap between local execution and global strategy, enhancing analytical thinking and problem-solving capabilities in a multinational setting.</li>
+          </ul>
         </div>
       </section>
 
@@ -33,134 +53,57 @@ export default function ResumePage() {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">Hacettepe University, Ankara</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 - Present</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">June, 2028</span>
           </div>
-          <div className="text-neutral-600 dark:text-neutral-400">BSc, Economics</div>
+          <div className="text-neutral-600 dark:text-neutral-400">BSc., Economics</div>
+          <div className="text-sm text-neutral-500 mt-1">3.4/4.0 GPA</div>
+          <div className="text-sm text-neutral-500 mt-1">Relevant Coursework: Econometrics, Statistics I-II, Linear Algebra, Macroeconomic Theory.</div>
+          <div className="text-sm text-neutral-500 mt-1">Hacettepe Economics Club – Finance Committee</div>
         </div>
         
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">Hacı Ömer Tarman Anatolian High School, Ankara</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2020 - 2024</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">June, 2024</span>
           </div>
-          <div className="text-neutral-600 dark:text-neutral-400">High School</div>
+          <div className="text-neutral-600 dark:text-neutral-400">High School Diploma (Mathematics & Science)</div>
         </div>
       </section>
 
-      <section className="mb-8 w-full">
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Experience</h2>
-        
-        <div className="mb-6">
-          <div className="flex justify-between items-start mb-1">
-            <h3 className="font-medium">ACM Hacettepe, Ankara</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 Oct - Present</span>
-          </div>
-          <div className="flex justify-between items-start mb-2">
-            <span className="text-neutral-600 dark:text-neutral-400">Advertising/Promotion Team Member</span>
-          </div>
-          <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
-            <li>Participated in organizing promotional activities for ACM events</li>
-            <li>Collaborated with team members on advertising campaigns</li>
-          </ul>
-        </div>
-        
-        <div className="mb-6">
-          <div className="flex justify-between items-start mb-1">
-            <h3 className="font-medium">Denizbank, Remote</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 Dec - 2025 Jan</span>
-          </div>
-          <div className="flex justify-between items-start mb-2">
-            <span className="text-neutral-600 dark:text-neutral-400">Denizaşırı Online Internship Alumni</span>
-          </div>
-          <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
-            <li>Completed online internship program focused on banking technologies</li>
-            <li>Gained experience in financial services digital infrastructure</li>
-          </ul>
-        </div>
 
-        <div className="mb-6">
-          <div className="flex justify-between items-start mb-1">
-            <h3 className="font-medium">Bizymle, Remote</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">2021 Feb - 2021 Jun</span>
-          </div>
-          <div className="flex justify-between items-start mb-2">
-            <span className="text-neutral-600 dark:text-neutral-400">Editorial Content Creator</span>
-          </div>
-          <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
-            <li>Created and edited content for digital publications</li>
-            <li>Collaborated with editorial team on content strategy</li>
-          </ul>
-        </div>
-      </section>
 
       <section className="mb-8 w-full">
         <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Skills</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4">
           <div>
-            <h3 className="font-medium mb-2">Programming Languages</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">JavaScript</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">TypeScript</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Python</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Java</span>
-            </div>
+            <h3 className="font-medium mb-2">Programming & Data</h3>
+            <p className="text-neutral-700 dark:text-neutral-300">Python (Pandas, NumPy, Matplotlib, Plotly), SQL (Intermediate), R.</p>
           </div>
           
           <div>
-            <h3 className="font-medium mb-2">Frameworks & Libraries</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">React</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Next.js</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Node.js</span>
-            </div>
+            <h3 className="font-medium mb-2">Financial Analysis</h3>
+            <p className="text-neutral-700 dark:text-neutral-300">Time Series Analysis, Volatility Modeling, Technical Analysis (RSI, MACD), Risk Metrics.</p>
           </div>
           
           <div>
-            <h3 className="font-medium mb-2">Design Platforms</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Adobe Photoshop</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Adobe Premiere</span>
-            </div>
-          </div>
-          <div>
-            <h3 className="font-medium mb-2">Data Science & AI</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Python</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">TensorFlow</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Machine Learning</span>
-            </div>
-          </div>
-          <div>
-            <h3 className="font-medium mb-2">Tools & Technologies</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Git</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Docker</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">AWS</span>
-            </div>
+            <h3 className="font-medium mb-2">Software & Tools</h3>
+            <p className="text-neutral-700 dark:text-neutral-300">Git/GitHub, MS Excel (VLOOKUP, Pivot Tables), VS Code, Jupyter Notebook, Linux</p>
           </div>
           <div>
             <h3 className="font-medium mb-2">Languages</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">English</span>
-              <span className="px-2 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-sm">Turkish</span>
-            </div>
+            <p className="text-neutral-700 dark:text-neutral-300">Turkish (Native), English (C1 - Advanced)</p>
           </div>
         </div>
       </section>
       
       <section className="w-full">
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Certificates</h2>
+        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-800">Certificates & Training</h2>
         
         <ul className="list-disc pl-5 text-neutral-700 dark:text-neutral-300">
           <li className="mb-2">
             <div className="flex justify-between items-start">
-              <span className="font-medium">CS50x Introduction to Computer Science</span>
-            </div>
-          </li>
-          <li className="mb-2">
-            <div className="flex justify-between items-start">
-              <span className="font-medium">Google Cloud Data Analytics Certificate</span>
+              <span className="font-medium">HackerRank SQL (Intermediate) – Verified Skill</span>
             </div>
           </li>
         </ul>
@@ -168,7 +111,7 @@ export default function ResumePage() {
       
       <div className="mt-8 flex w-full">
         <Link 
-          href="https://r09d9qfi80.ufs.sh/f/dycBZZqMs41HXl1SCY3r5zT87NXlAF9Ga21vWSUBZojKLsHe" 
+          href="https://drive.google.com/file/d/1-tdxEuuo1vqz3v1bOZwtjwz0UM0eTU3t/view?usp=sharing" 
           target="_blank"
           className="px-4 py-2 bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 rounded-md hover:opacity-90 transition-opacity"
         >

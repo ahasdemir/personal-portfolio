@@ -45,6 +45,31 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: 'algo-risk-monitor',
+    title: 'Algo-Risk Monitor',
+    description: 'Quantitative Finance Dashboard & Portfolio Optimizer',
+    image: '/projects/thealgoriskmonitor.webp',
+    tags: ['Python', 'Pandas', 'NumPy', 'Plotly'],
+    demoUrl: 'https://github.com/ahasdemir/algo-risk-monitor',
+    githubUrl: 'https://github.com/ahasdemir/algo-risk-monitor',
+    fullDescription: `
+      Developed a comprehensive financial analysis tool designed to bridge the gap between raw market data and actionable risk insights. This project automates the tracking of market volatility, momentum, and portfolio performance, serving as a decision-support system for quantitative trading and risk management.
+
+      It features an automated data pipeline to fetch real-time OHLCV data, implements advanced risk metrics like Logarithmic Returns and Annualized Volatility, and utilizes Modern Portfolio Theory (MPT) for portfolio optimization. The tool also performs Monte Carlo simulations to construct the Efficient Frontier and identifies the Optimal Portfolio based on the maximum Sharpe Ratio.
+    `,
+    features: [
+      'Automated Data Pipeline using yfinance',
+      'Advanced Risk Metrics & Annualized Volatility',
+      'Portfolio Optimization (MPT)',
+      'Monte Carlo Simulation (10,000+ scenarios)',
+      'Technical Analysis (RSI, SMA)',
+      'Interactive Visualization with Plotly'
+    ],
+    technologies: [
+      'Python', 'Pandas', 'NumPy', 'Plotly', 'yfinance', 'SciPy'
+    ],
+  },
+  {
     id: 'gemini-with-knowledge',
     title: 'Gemini with Knowledge',
     description: 'This project integrates a knowledge management system with the Gemini API, allowing the model to reference a knowledge base when generating responses.',
