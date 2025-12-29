@@ -47,26 +47,38 @@ export const projects: Project[] = [
   {
     id: 'algo-risk-monitor',
     title: 'Algo-Risk Monitor',
-    description: 'Quantitative Finance Dashboard & Portfolio Optimizer',
+    description: 'Automated risk dashboard: volatility, VaR, optimization',
     image: '/projects/thealgoriskmonitor.webp',
-    tags: ['Python', 'Pandas', 'NumPy', 'Plotly'],
-    demoUrl: 'https://github.com/ahasdemir/algo-risk-monitor',
-    githubUrl: 'https://github.com/ahasdemir/algo-risk-monitor',
+    tags: ['Python', 'Quant Finance', 'Streamlit', 'Plotly'],
+    demoUrl: 'https://algo-risk-monitor.streamlit.app/',
+    githubUrl: 'https://github.com/ahasdemir/Algo-Risk-Monitor',
     fullDescription: `
-      Developed a comprehensive financial analysis tool designed to bridge the gap between raw market data and actionable risk insights. This project automates the tracking of market volatility, momentum, and portfolio performance, serving as a decision-support system for quantitative trading and risk management.
+      Algo-Risk Monitor is an automated quantitative analysis suite that blends technical momentum signals with multi-layered risk analytics to turn raw market data into actionable insight.
+      
+      Highlights:
+      - Logarithmic Returns and 21-day Annualized Volatility for risk standardization
+      - RSI/SMA momentum overlays and candlestick dashboards
+      - Parametric (Normal/Hull) and Historical VaR for single tickers and portfolios
+      - Mean-Variance Optimization (MPT), Efficient Frontier search, and Monte Carlo for maximum Sharpe
+      - Geometric Brownian Motion (GBM) scenario engine to simulate forward portfolio values
+      - Interactive Streamlit web app with multi-page navigation and exportable CSV outputs
 
-      It features an automated data pipeline to fetch real-time OHLCV data, implements advanced risk metrics like Logarithmic Returns and Annualized Volatility, and utilizes Modern Portfolio Theory (MPT) for portfolio optimization. The tool also performs Monte Carlo simulations to construct the Efficient Frontier and identifies the Optimal Portfolio based on the maximum Sharpe Ratio.
+      Supports auto-adjusted OHLCV via yfinance, including all 503 S&P 500 constituents. Built for notebook analysis and real-time web dashboards.
     `,
     features: [
-      'Automated Data Pipeline using yfinance',
-      'Advanced Risk Metrics & Annualized Volatility',
-      'Portfolio Optimization (MPT)',
-      'Monte Carlo Simulation (10,000+ scenarios)',
-      'Technical Analysis (RSI, SMA)',
-      'Interactive Visualization with Plotly'
+      'Automated OHLCV data pipeline (yfinance)',
+      'Momentum & Trend: RSI, SMA-20/50 crossovers',
+      'Volatility & VaR: annualized vols, parametric (Hull) and historical VaR',
+      'Portfolio analytics: expected returns, covariance, efficient frontier',
+      'Optimization engine: 10,000+ Monte Carlo simulations, max Sharpe & min vol',
+      'Scenario engine: GBM with percentile bands (500+ paths)',
+      'Visual outputs: Plotly dashboards, Matplotlib/Seaborn distributions',
+      'Streamlit web app: interactive multi-page analysis',
+      'Smart weight input and validation (equal-weight option)',
+      'Correlation heatmap & performance pages'
     ],
     technologies: [
-      'Python', 'Pandas', 'NumPy', 'Plotly', 'yfinance', 'SciPy'
+      'Python', 'Pandas', 'NumPy', 'SciPy', 'yfinance', 'Plotly', 'Matplotlib', 'Seaborn', 'Streamlit', 'Jupyter'
     ],
   },
   {
