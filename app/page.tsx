@@ -11,7 +11,7 @@ export default function Page() {
             Ahmet Hasdemir
           </h1>
           <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
-            Economics student with a strong foundation in econometrics and statistical analysis. Skilled in Python (Pandas, NumPy) and Financial Modelling. Passionate about bridging the gap between economic theory and data science to solve complex risk management problems. Currently building automated dashboards for market analysis.
+            An Economics sophomore at Hacettepe University specializing in quantitative finance and data science. Actively bridges macroeconomic theory with algorithmic architecture by building machine learning-driven risk management systems.
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
             <Link 

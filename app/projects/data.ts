@@ -48,7 +48,7 @@ export const projects: Project[] = [
     id: 'algo-risk-monitor',
     title: 'Algo-Risk Monitor',
     description: 'Automated risk dashboard: volatility, VaR, optimization',
-    image: '/projects/thealgoriskmonitor.webp',
+    image: '/projects/the-algo-risk-monitor.webp',
     tags: ['Python', 'Quant Finance', 'Streamlit', 'Plotly'],
     demoUrl: 'https://algo-risk-monitor.streamlit.app/',
     githubUrl: 'https://github.com/ahasdemir/Algo-Risk-Monitor',
