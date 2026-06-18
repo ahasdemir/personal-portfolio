@@ -107,56 +107,58 @@ export const projects: Project[] = [
       'Gemini API', 'Python', 'Express', 'Vector Database'
     ],
   },
-  {
-    id: 'minecraft-rehber',
-    title: 'Administration Guide Panel',
-    description: 'A Next.js application containing guide and management tools for the SkyBlockTC server',
-    image: '/projects/guide-panel.webp',
-    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-    demoUrl: 'https://skyblocktc-rehber.vercel.app',
-    githubUrl: 'https://github.com/ahasdemir/skyblocktc-rehber',
-    fullDescription: `
-      This project is a comprehensive guide and management panel for the SkyBlockTC server. 
-      Built using Next.js and TypeScript, it provides an intuitive interface for server management 
-      and player guidance.
-
-      The application features:
-      - Server management tools
-      - Player guides and documentation
-      - Interactive UI components
-      - Responsive design for all devices
-      - Real-time updates and notifications
-    `,
-    features: [
-      'Server management dashboard',
-      'Player guides and documentation',
-      'Interactive UI components',
-      'Responsive design',
-      'Real-time updates'
-    ],
-    technologies: [
-      'Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'Vercel'
-    ],
-  },
-  {
-    id: 'job-scraper',
-    title: 'Job Scraper',
-    description: 'A Python tool that automatically collects job listings from Youthall and Toptalent',
-    image: '/projects/job-scraper.webp',
-    tags: ['Python', 'pandas', 'beautifulsoup4'],
-    demoUrl: 'https://github.com/ahasdemir/job-scraper',
-    githubUrl: 'https://github.com/ahasdemir/job-scraper',
-    fullDescription: `
-      A Python tool that automatically collects job listings from Youthall and Toptalent. Extracts job titles, companies, locations, and links, then saves to CSV. Simple to use, with a modular design that makes it easy to add support for more job sites.
-      This project demonstrates web scraping techniques using Python libraries like BeautifulSoup and pandas. It can be extended to scrape additional job sites or extract more detailed information as needed.
-    `,
-    features: [
-      'Scrapes job title, company, location, and job link.',
-      'Saves results as CSV.',
-      'Modular design for adding new scrapers.'
-    ],
-    technologies: [
-      'Python', 'pandas', 'beautifulsoup4'
-    ],
-  },
+  // Minecraft Server Management Panel - Full-stack guide and admin dashboard
+  // {
+  //   id: 'minecraft-rehber',
+  //   title: 'Administration Guide Panel',
+  //   description: 'A Next.js application containing guide and management tools for the SkyBlockTC server',
+  //   image: '/projects/guide-panel.webp',
+  //   tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+  //   demoUrl: 'https://skyblocktc-rehber.vercel.app',
+  //   githubUrl: 'https://github.com/ahasdemir/skyblocktc-rehber',
+  //   fullDescription: `
+  //     This project is a comprehensive guide and management panel for the SkyBlockTC server. 
+  //     Built using Next.js and TypeScript, it provides an intuitive interface for server management 
+  //     and player guidance.
+  //
+  //     The application features:
+  //     - Server management tools
+  //     - Player guides and documentation
+  //     - Interactive UI components
+  //     - Responsive design for all devices
+  //     - Real-time updates and notifications
+  //   `,
+  //   features: [
+  //     'Server management dashboard',
+  //     'Player guides and documentation',
+  //     'Interactive UI components',
+  //     'Responsive design',
+  //     'Real-time updates'
+  //   ],
+  //   technologies: [
+  //     'Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'Vercel'
+  //   ],
+  // },
+  // Web Scraping Tool - Automated job listing aggregation from multiple sources
+  // {
+  //   id: 'job-scraper',
+  //   title: 'Job Scraper',
+  //   description: 'A Python tool that automatically collects job listings from Youthall and Toptalent',
+  //   image: '/projects/job-scraper.webp',
+  //   tags: ['Python', 'pandas', 'beautifulsoup4'],
+  //   demoUrl: 'https://github.com/ahasdemir/job-scraper',
+  //   githubUrl: 'https://github.com/ahasdemir/job-scraper',
+  //   fullDescription: `
+  //     A Python tool that automatically collects job listings from Youthall and Toptalent. Extracts job titles, companies, locations, and links, then saves to CSV. Simple to use, with a modular design that makes it easy to add support for more job sites.
+  //     This project demonstrates web scraping techniques using Python libraries like BeautifulSoup and pandas. It can be extended to scrape additional job sites or extract more detailed information as needed.
+  //   `,
+  //   features: [
+  //     'Scrapes job title, company, location, and job link.',
+  //     'Saves results as CSV.',
+  //     'Modular design for adding new scrapers.'
+  //   ],
+  //   technologies: [
+  //     'Python', 'pandas', 'beautifulsoup4'
+  //   ],
+  // },
 ]; 
