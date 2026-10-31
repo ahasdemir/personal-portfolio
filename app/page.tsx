@@ -11,7 +11,7 @@ export default function Page() {
             Ahmet Hasdemir
           </h1>
           <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
-            An Economics sophomore at Hacettepe University specializing in quantitative finance and data science. Actively bridges macroeconomic theory with algorithmic architecture by building machine learning-driven risk management systems.
+            An Economics Junior at Hacettepe University minoring in Mathematics, specializing in quantitative finance, econometric modeling, and machine learning. Actively bridges macroeconomic theory with algorithmic architecture by building derivatives pricing engines and automated risk management systems.
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
             <Link 

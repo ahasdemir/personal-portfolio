@@ -8,14 +8,14 @@ export default function ResumePage() {
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Ahmet Hasdemir</h2>
         <p className="text-neutral-600 dark:text-neutral-400 mb-4">
-          Economics student with expertise in modern web development and data science.
+          Economics Junior at Hacettepe University minoring in Mathematics, specializing in quantitative finance, econometric modeling, and financial engineering.
         </p>
         <div className="flex flex-wrap gap-2 mb-4">
-          <Link href="mailto:ahmet@hasdemir.me" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
-            ahmet@hasdemir.me
+          <Link href="mailto:ahmethasdemir000@gmail.com" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
+            ahmethasdemir000@gmail.com
           </Link>
-          <Link href="https://hasdemir.me" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
-            hasdemir.me
+          <Link href="https://hasdemir.vercel.app" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
+            hasdemir.vercel.app
           </Link>
           <Link href="https://github.com/ahasdemir" target="_blank" className="inline-flex items-center px-3 py-1 rounded-md bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors">
             GitHub
@@ -50,11 +50,11 @@ export default function ResumePage() {
         <div className="mb-6">
           <div className="flex justify-between items-start mb-1">
             <h3 className="font-medium">Hacettepe University, Ankara</h3>
-            <span className="text-sm text-neutral-600 dark:text-neutral-400">June, 2028</span>
+            <span className="text-sm text-neutral-600 dark:text-neutral-400">2024 – 2028 (Expected)</span>
           </div>
-          <div className="text-neutral-600 dark:text-neutral-400">BSc., Economics</div>
-          <div className="text-sm text-neutral-500 mt-1">3.4/4.0 GPA</div>
-          <div className="text-sm text-neutral-500 mt-1">Relevant Coursework: Econometrics, Statistics I-II, Linear Algebra, Macroeconomic Theory.</div>
+          <div className="text-neutral-600 dark:text-neutral-400">B.S. in Economics (Junior / 3rd Year)</div>
+          <div className="text-neutral-600 dark:text-neutral-400">Minor in Mathematics, Department of Mathematics (2026 – 2028)</div>
+          <div className="text-sm text-neutral-500 mt-1">Relevant Coursework: Econometrics I, Linear Algebra, Calculus & Real Analysis III, Machine Learning for Economists, Financial Markets, Differential Equations.</div>
           <div className="text-sm text-neutral-500 mt-1">Hacettepe Economics Club – Finance Committee</div>
         </div>
         
@@ -74,22 +74,22 @@ export default function ResumePage() {
         
         <div className="grid grid-cols-1 gap-4">
           <div>
+            <h3 className="font-medium mb-2">Quantitative Finance & Econometrics</h3>
+            <p className="text-neutral-700 dark:text-neutral-300">Econometric Estimation (OLS, EKF State-Space, Time Series), Modern Portfolio Theory (MPT), Value-at-Risk (VaR), Stochastic Calculus, Black-Scholes-Merton & Garman-Kohlhagen Option Pricing, Monte Carlo Simulations.</p>
+          </div>
+
+          <div>
             <h3 className="font-medium mb-2">Programming & Data</h3>
-            <p className="text-neutral-700 dark:text-neutral-300">Python (Pandas, NumPy, Matplotlib, Plotly), SQL (Intermediate), R.</p>
+            <p className="text-neutral-700 dark:text-neutral-300">Python (NumPy, SciPy, Pandas, Statsmodels, Scikit-learn, Matplotlib, Plotly), SQL, R, TypeScript/JavaScript.</p>
           </div>
           
           <div>
-            <h3 className="font-medium mb-2">Financial Analysis</h3>
-            <p className="text-neutral-700 dark:text-neutral-300">Time Series Analysis, Volatility Modeling, Technical Analysis (RSI, MACD), Risk Metrics.</p>
-          </div>
-          
-          <div>
-            <h3 className="font-medium mb-2">Software & Tools</h3>
-            <p className="text-neutral-700 dark:text-neutral-300">Git/GitHub, MS Excel (VLOOKUP, Pivot Tables), VS Code, Jupyter Notebook, Linux</p>
+            <h3 className="font-medium mb-2">Developer Tools & Platforms</h3>
+            <p className="text-neutral-700 dark:text-neutral-300">Linux (Arch/Hyprland), Git/GitHub, Docker, React Native, REST APIs, Vercel.</p>
           </div>
           <div>
             <h3 className="font-medium mb-2">Languages</h3>
-            <p className="text-neutral-700 dark:text-neutral-300">Turkish (Native), English (C1 - Advanced)</p>
+            <p className="text-neutral-700 dark:text-neutral-300">Turkish (Native), English (Professional Working Proficiency / Fluent)</p>
           </div>
         </div>
       </section>
@@ -107,13 +107,13 @@ export default function ResumePage() {
       </section>
       
       <div className="mt-8 flex w-full">
-        <Link 
-          href="https://drive.google.com/file/d/1-tdxEuuo1vqz3v1bOZwtjwz0UM0eTU3t/view?usp=sharing" 
-          target="_blank"
+        <a 
+          href="/resume.pdf" 
+          download="Ahmet_Hasdemir_CV.pdf"
           className="px-4 py-2 bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 rounded-md hover:opacity-90 transition-opacity"
         >
           Download PDF Resume
-        </Link>
+        </a>
       </div>
     </div>
   );
